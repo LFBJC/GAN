@@ -30,4 +30,6 @@ As seguintes modificações a caminho:
 
 > Dar continuidade aos conceitos aprendidos no curso, permitindo geração controlável e possivelmente geração condicional
 
+>Fazer modificações que permitam a inserção segura de padding e o uso de strides diferentes nas redes de múltiplas camadas
+
 > Embutir conhecimentos do próximo curso para tornar a GAN mais semelhante ao estado da arte
