@@ -1,4 +1,5 @@
 # GAN
+
 Este repositório tem por objetivo implementar uma rede gerativa adversária com base no conhecimento aprendido nos cursos da série GANs for good de deeplearning.ai no coursera com algumas modificações minhas.
 
 O colab tem uma cota máxima de acesso à internet, por isso se quiser ver a execução da versão atual utilizando o dataset CelebA use sua máquina local ou outra plataforma, inclusive o código deste repositório está disponível no [kaggle](https://www.kaggle.com/luizfelipebjcosta/gan-lfbjc).
