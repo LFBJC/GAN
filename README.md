@@ -1,7 +1,7 @@
 # GAN
 Este repositório tem por objetivo implementar uma rede gerativa adversária com base no conhecimento aprendido nos cursos da série GANs for good de deeplearning.ai no coursera com algumas modificações minhas.
 
-O colab tem uma cota máxima de acesso à internet, por isso se quiser ver a execução da versão atual utilizando o dataset CelebA use sua máquina local ou outra plataforma, inclusive o código deste repositório está disponível no [kaggle](https://www.kaggle.com/luizfelipebjcosta/gan-lfbjc).
+O colab tem uma cota máxima de acesso à internet, por isso se quiser ver a execução da versão atual utilizando o dataset CelebA use sua máquina local ou outra plataforma, inclusive os códigos deste repositório para o [treinamento da GAN] (https://www.kaggle.com/luizfelipebjcosta/gan-lfbjc) e para a [geração controlável] (https://www.kaggle.com/luizfelipebjcosta/controlable-generation) estão disponíveis no kaggle.
 
 A GAN, implementada a partir do curso, utiliza a função de perda de Wasserstein e o "discriminador" neste caso é chamado de crítico, porque em vez de retornar um valor entre 0 e 1, ele pode retornar qualquer valor real, correspondendo ao quão "real" ele avalia uma imagem, isso ajuda o gerador porque de outra forma o discriminador poderia melhorar rápido de mais, como sua tarefa é mais simples e produziria resultados muito próximos de 0 e 1, levando o gerador a parar seu treinamento (os gradientes ficariam infinitos, significando "não há como melhorar" e o gerador pararia de treinar)
 
